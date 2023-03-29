@@ -1,0 +1,172 @@
+ .Login *, .Login {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    background-color: #efefef;
+    overflow-y: hidden; 
+}
+
+.Login .container, .Login {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Login .center {
+    width: 413px;
+    border: 1px solid rgb(195,195,195);
+    border-radius: 4px;
+    background-color: #fff;
+    height: 434px;
+}
+
+.Login .center .header {
+   display: flex;
+   justify-content: center;
+   margin-top: 20px;
+   margin-bottom: 17px;
+   background-color: #fff;
+}
+
+.Login img {
+    width: 200px;
+    height: 80px;
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+.Login .center .inputElement {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 37px 0px 37px;
+    background-color: #fff;
+}
+
+.Login .inputElement .inputText {
+    padding: 8px;
+    font-size: 12px;
+    margin-top: 10px;
+    background-color: #fbf8f8;
+    border: 1px solid gray;
+    height: 39px;
+    border-radius: 4px;
+}
+
+.Login .inputText:focus{
+    outline:  gray;
+}
+
+
+.Login .inputButton {
+    background-color: #47afff;
+    color: white;
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    border: none;
+    width: 600;
+    font-weight: 600;
+    height: 39px;
+}
+
+.Login .line {
+   display: flex;
+   margin-top: 12px;
+   background-color: #fff;
+   margin-left: 16px;
+}
+
+.Login .arrow {
+    background-color: gray;
+    height: 1px;
+    width: 140px;
+    margin-top: 6px;
+}
+
+.Login .content {
+    color: gray;
+    margin-left: 4px;
+    margin-right: 4px;
+    background-color: #fff;
+    font-size: 12px;
+}
+
+.Login .social_icon {
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    background-color: #fff;
+    
+}
+
+.Login .fab {
+    padding: 5px;
+    color:  #385185;
+    background-color: #fff;
+}
+
+.Login .social_icon span {
+    color: #385185;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #fff;
+}
+
+.Login .forgetPassword {
+    margin: auto;
+    color:  #385185;
+    margin-bottom: 26px;
+    background-color: #fff;
+}
+
+.Login .footer {
+    margin-top: 30px;
+    border: 1px solid rgb(195,195,195);
+    padding: 20px;
+    width: 413px;
+    text-align: center;
+    background-color: #fff;
+    height: 90px;
+}
+
+.Login .footer p {
+    background-color: white;
+    margin-top: 14px;
+    font-size: 15px;
+
+}
+.Login .footer span {
+    color: #47afff;;
+    font-weight: 500;
+    background-color: #fff;
+}
+
+.Login .get_app {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 12px;
+    color: gray;
+}
+
+.Login .app_img {
+    display: flex;
+
+}
+
+.Login .google_play_get, .Login .microsoft_get {
+    height: 40px;
+    width: 134px;
+    margin-left: 10px;
+}
+
+.Login form {
+    background: white!important;
+    display: flex;
+    flex-direction: column;
+}
