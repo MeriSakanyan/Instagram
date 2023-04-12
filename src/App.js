@@ -21,7 +21,7 @@ function App() {
           <Route path='notification' element={<Notifications />} />
           <Route path='explore' element={<Explore />} />
           <Route path='profile' element={<Profile />} />
-          <Route path='create' element={<CreatePost />} />
+          {/* <Route path='create' element={<CreatePost />} /> */}
         </Route>
         <Route path='/login' element={<Login />}/>
       </Routes>
